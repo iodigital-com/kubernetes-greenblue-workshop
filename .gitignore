@@ -1,2 +1,89 @@
-/.idea/
-/my-app/build/
+*.bin
+*.log
+
+# Gradle files
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# Ignore Gradle build output directory
+out/
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Compiled bytecode
+bin/
+
+# Maven files (in case the project uses both Gradle and Maven)
+target/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Version control
+vcs.xml
+
+# Test coverage reports
+coverage/
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.atom/
+>>>>>>> 21b3d5b (git ignore)
