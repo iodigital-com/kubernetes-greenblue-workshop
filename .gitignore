@@ -7,6 +7,8 @@ build/
 # Ignore Gradle GUI config
 gradle-app.setting
 .gralde/
+.gradle/
+
 
 # Cache of project
 .gradletasknamecache
@@ -86,4 +88,3 @@ Thumbs.db
 *.sublime-workspace
 *.sublime-project
 .atom/
->>>>>>> 21b3d5b (git ignore)
