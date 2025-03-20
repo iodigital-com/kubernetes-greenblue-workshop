@@ -15,6 +15,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: my-app-service-blue
+                name: my-app-service-blue # References your service
                 port:
-                  name: http
+                  name: http # Refers to the named port in your service (8080)

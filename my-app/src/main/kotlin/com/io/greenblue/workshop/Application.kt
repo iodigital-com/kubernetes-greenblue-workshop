@@ -1,4 +1,4 @@
-package com.dimitribelfor
+package com.io.greenblue.workshop
 
 import io.ktor.server.application.*
 

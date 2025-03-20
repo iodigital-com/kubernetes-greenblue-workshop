@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.ktor)
 }
 
-group = "com.dimitribelfor"
+group = "com.io.greenblue.workshop"
 version = "0.0.1"
 
 application {
@@ -16,9 +16,10 @@ application {
 ktor {
     docker {
         localImageName.set("my-app")
-        imageTag.set("1.0")
+        imageTag.set("2.0.0")
     }
 }
+
 repositories {
     mavenCentral()
 }

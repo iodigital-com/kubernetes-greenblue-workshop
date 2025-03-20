@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: my-app:2.0
+        image: my-app:2.0.0
         ports:
         - containerPort: 8080

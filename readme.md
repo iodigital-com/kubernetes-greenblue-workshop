@@ -27,6 +27,17 @@ kubectl apply -f ingress-single.yaml
 ```shell
 http get app.localhost
 ```
+
+External Client (app.localhost:30047)
+→ Ingress Controller Service (NodePort 30047)
+→ Ingress Controller Pod (port 80)
+→ Routing based on Ingress Rules
+→ Your ClusterIP Service (port 8080)
+→ Your Application Pods
+
+Notes:
+https://aio.iodigital.com/share/nuh6jCVPCZ776EA23IRRW
+
 # Creating the canary ingress
 ```shell
 kubectl apply -f ingress-canary.yaml
